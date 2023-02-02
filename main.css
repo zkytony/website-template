@@ -1,0 +1,591 @@
+/*
+ * Copyright (c) 2016-present Kaiyu Zheng
+ * Author: Kaiyu Zheng <kaiyutony@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+/* Colors */
+/* Logo colors */
+/* Theme colors */
+/* Cards */
+/* defaults */
+/* Index page login form */
+/* Deck show page */
+/* Card Editors */
+/* Navbar colors */
+/* Home cards */
+/*** TEXT ***/
+/*** IMG card ***/
+/* Home page wrappers arrangement */
+/* info panels */
+/* Navbar variables */
+/* time period */
+/* The tabs */
+/* Profile pic and user stats */
+/* General Profile page */
+/* Deck display on profile page */
+/* Media */
+/* Colors */
+/* Logo colors */
+/* Theme colors */
+/* Cards */
+/* defaults */
+/* Index page login form */
+/* Deck show page */
+/* Card Editors */
+/* Navbar colors */
+/* Home cards */
+/*** TEXT ***/
+/*** IMG card ***/
+/* Home page wrappers arrangement */
+/* info panels */
+/* Navbar variables */
+/* time period */
+/* The tabs */
+/* Profile pic and user stats */
+/* General Profile page */
+/* Deck display on profile page */
+/* Media */
+.profile {
+  width: 100px;
+  /* max-width: 50px; */
+  /* float:right; */ }
+
+.big-name .profile {
+  position: absolute;
+  right: 5%;
+  top: -16.6666666667px; }
+.big-name .chinese-name {
+  display: in-line;
+  position: relative;
+  left: 0.25em;
+  bottom: 0.25em; }
+
+/* type 1: small circle */
+.profile img {
+  height: 100px;
+  border-radius: 51px;
+  border: 2px double #EFEFEF; }
+
+/* Colors */
+/* Logo colors */
+/* Theme colors */
+/* Cards */
+/* defaults */
+/* Index page login form */
+/* Deck show page */
+/* Card Editors */
+/* Navbar colors */
+/* Home cards */
+/*** TEXT ***/
+/*** IMG card ***/
+/* Home page wrappers arrangement */
+/* info panels */
+/* Navbar variables */
+/* time period */
+/* The tabs */
+/* Profile pic and user stats */
+/* General Profile page */
+/* Deck display on profile page */
+/* Media */
+.main-wrapper {
+  max-width: 600px;
+  /* margin-left: 0px; */
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  /* shadow */
+  /* box-shadow: 0px 0px 3px 3px #222; */ }
+
+.main-section .emph {
+  color: #996600; }
+.main-section .pub-year {
+  color: #CACACA; }
+
+.main-section#intro {
+  max-width: 540px; }
+
+.sub-section {
+  padding-top: 14px; }
+  .sub-section h3.sub-category {
+    font-size: 1.2em;
+    margin-top: 0em;
+    margin-bottom: -.75em; }
+  .sub-section w-border {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-left: 5px solid #EFEFEF; }
+
+@media only screen and (max-width: 1024px) {
+  .main-section h2 {
+    padding-top: 2em; }
+  .main-section h2.nopadding {
+    padding-top: 0; }
+
+  .main-section#news {
+    margin-bottom: -2.5em; }
+
+  .main-section .sub-section:last-child {
+    margin-bottom: -2.5em; }
+
+  .header h1 {
+    padding-top: 1.5em; }
+  .header .profile {
+    padding-top: 3.5em; } }
+@media only screen and (max-width: 320px) {
+  .header .profile {
+    display: none; } }
+/* Subsection that contains videos within a main-section,
+   Or, is the section right after one that contains a video.
+*/
+.sub-section-vid, .sub-section-papers, sub-section-proj {
+  padding-top: 14px; }
+  .sub-section-vid h3.sub-category, .sub-section-papers h3.sub-category, sub-section-proj h3.sub-category {
+    font-size: 1.2em;
+    margin-top: 0em;
+    margin-bottom: -.75em; }
+
+.sub-section-vid.nopad, .sub-section-papers.nopad, sub-section-proj {
+  padding-top: 0px; }
+
+.centered-text {
+  padding: 20px;
+  max-width: 510px;
+  margin: auto;
+  position: relative; }
+
+.centered-pic {
+  max-width: 510px;
+  margin: auto;
+  margin-top: 15px; }
+
+.centered-pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
+.centered-pic img.shadowed {
+  box-shadow: 0px 0px 10px #555555; }
+
+.meta-note {
+  color: #76787a; }
+
+.footnote {
+  max-width: 560px;
+  border-top: solid 1px black;
+  margin: auto;
+  padding-bottom: 20px; }
+
+.footnote p {
+  max-width: 510px;
+  margin: auto;
+  margin-top: 10px; }
+
+.embed-video, .feature-img, .further-info {
+  max-width: 468px;
+  margin-top: 10px; }
+
+.embed-video, .feature-img {
+  max-height: 262.08px; }
+
+.embed-video {
+  background: #EFEFEF;
+  border: 1px solid #CCC; }
+
+.embed-video .videowrapper:after {
+  content: "Loading Youtube video... (Unavailable in Mainland China)";
+  margin-left: 20px;
+  color: grey; }
+
+.feature-img img {
+  max-width: 100%; }
+
+.further-info.abstract, .further-info.description {
+  font-size: 14.5px;
+  border: 1px dashed black;
+  padding: 15px; }
+  .further-info.abstract p, .further-info.description p {
+    margin: 0px; }
+
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50.25%;
+  padding-top: 25px;
+  height: 0; }
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.show-content-btn:hover {
+  cursor: pointer; }
+
+.hidden {
+  display: none; }
+
+.big-title {
+  width: 95%;
+  /* float:left; */
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .big-title h1 {
+    display: inline-block; }
+
+/* Menu on the side */
+.menu .sub-menu-item a {
+  color: #2B2B2B; }
+.menu .unclickable-menu-item a {
+  color: #AAAAAA; }
+  .menu .unclickable-menu-item a:hover {
+    text-decoration: none;
+    cursor: default; }
+@media only screen and (min-width: 769px) {
+  .menu {
+    position: fixed;
+    width: 80px;
+    margin-top: 175px;
+    margin-left: -127.5px;
+    border-right: 1px dotted #888888;
+    text-align: right;
+    padding-right: 15px; }
+    .menu ul {
+      list-style-type: none; }
+      .menu ul li {
+        padding-bottom: 5px; }
+        .menu ul li:first-child {
+          padding-top: 10px; }
+        .menu ul li:last-child {
+          padding-bottom: 10px; }
+        .menu ul li a {
+          color: #888888;
+          font-weight: 100; }
+          .menu ul li a:hover {
+            text-decoration: underline; }
+    .menu .sub-menu-item {
+      font-size: 13px; } }
+@media only screen and (max-width: 1024px) {
+  .menu {
+    position: fixed;
+    z-index: 100;
+    width: 510px;
+    background: white;
+    top: 0px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-right: none;
+    text-align: left;
+    border-bottom: 1px dotted #888888; }
+    .menu ul {
+      list-style-type: none; }
+      .menu ul li {
+        display: inline;
+        padding-left: 0.8em; }
+        .menu ul li:first-child {
+          padding-left: 0.25em; }
+        .menu ul li a {
+          color: #888888;
+          font-weight: 100;
+          font-size: 13px; }
+          .menu ul li a:hover {
+            text-decoration: underline; } }
+@media only screen and (max-width: 320px) {
+  .menu {
+    left: 2px; }
+    .menu ul li {
+      padding-left: 0.2em; }
+      .menu ul li a {
+        font-size: 12px; } }
+
+table.info-table {
+  margin-top: 10px; }
+  table.info-table td {
+    border: 1px solid #EFEFEF;
+    vertical-align: top; }
+  table.info-table div.info-cell {
+    max-width: 510px; }
+    table.info-table div.info-cell.cols3 {
+      max-width: 161.9047619048px; }
+    table.info-table div.info-cell.cols4 {
+      max-width: 126.2376237624px; }
+    table.info-table div.info-cell .pic {
+      min-height: 160px;
+      width: 100%;
+      bottom: 0px;
+      margin-bottom: 5px; }
+      table.info-table div.info-cell .pic img {
+        width: 100%;
+        border: 1px solid black; }
+
+.normal-gap {
+  margin-top: 10px; }
+
+.blog ul {
+  margin-top: 5px;
+  margin-left: 20px; }
+  .blog ul li {
+    margin-bottom: 5px; }
+
+.blog .ending {
+  margin-top: 10px; }
+
+/* Basic global configs */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body, html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Roboto', serif;
+  color: #000000;
+  font-size: 15px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+ul.indented-list {
+  margin-top: 5px;
+  margin-left: 20px; }
+  ul.indented-list li {
+    margin-bottom: 5px; }
+
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: 'Roboto Slab', serif;
+  color: #000000;
+  margin-bottom: 0px; }
+
+a {
+  text-decoration: none;
+  color: #2F69C3;
+  /* Link to other websites */ }
+
+a:hover {
+  text-decoration: underline; }
+
+a.link-special {
+  color: #dd5800; }
+
+a.link-in {
+  color: #dd5800;
+  /* Link within website */ }
+
+a.link-in-ul {
+  color: #dd5800;
+  /* Link within website */
+  text-decoration: underline; }
+
+a.link-no {
+  color: #000;
+  text-decoration: underline; }
+
+.nav a {
+  color: #7f6600; }
+.nav a.alert {
+  color: #d81539; }
+
+/* UW link */
+.uw-link {
+  color: #570083; }
+
+.uw-link:hover {
+  color: #e6b800; }
+
+/* SAIC link */
+#saic-link {
+  color: #FF00A4; }
+
+#saic-link:hover {
+  color: #000000; }
+
+/* Brown link */
+.brown-link {
+  color: #ED1C24; }
+
+.brown-link:hover {
+  color: #4E3629; }
+
+/* BDAII link*/
+.bdaii-link {
+  color: #D6AB19; }
+
+.bdaii-link:hover {
+  color: #3e8898; }
+
+/* MIT link */
+.mit-link {
+  color: #A31F34; }
+
+.mit-link:hover {
+  color: #A31F34; }
+
+.alert {
+  color: #d81539; }
+
+.attention {
+  color: #075e09; }
+
+.attention a {
+  color: #013d03;
+  font-weight: bold; }
+
+/* /\* type 2: large circle *\/ */
+/* .profile img { */
+/*     max-width: 500px; */
+/*     border-radius: 251px; */
+/*     border: 2px double #EFEFEF; */
+/* } */
+/* /\* type 3: large square *\/ */
+/* .profile img { */
+/*     max-width: 500px; */
+/* } */
+.notif-news {
+  margin-right: 5px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #F5F6CE; }
+
+#news {
+  margin-top: 12px; }
+
+#news ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+#news ul li {
+  padding: 5px; }
+  #news ul li:first-child {
+    padding-top: 5px; }
+  #news ul li span.news-date {
+    color: #CACACA;
+    font-weight: bold;
+    padding-right: 7px; }
+
+.new-label, .new {
+  font-size: 13px;
+  margin-right: 2px;
+  color: #b54800;
+  background-color: #ffdbc5;
+  padding: 1px;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+#publications a {
+  text-decoration: none; }
+#publications a.pdf-link {
+  text-decoration: underline; }
+#publications a.ext-link {
+  text-decoration: underline; }
+#publications b {
+  font-family: 'Roboto Slab', serif; }
+
+/* Conways */
+#conways-wrapper {
+  max-width: 600px;
+  display: flex;
+  justify-content: center; }
+
+#conways-wrapper #conways-space {
+  background-color: #EFEFEF;
+  padding: 10px; }
+
+li p {
+  font-style: italic;
+  padding: 15px;
+  display: block;
+  border-radius: 10px 10px;
+  color: #4d0099; }
+
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+  background-color: #EFEFEF;
+  padding: 15px; }
+
+.youtube-red {
+  color: #ff0000; }
+
+.facebook-blue {
+  color: #3b5998; }
+
+.header-link {
+  font-weight: 400;
+  font-size: 15px;
+  /* display:block; */
+  /* float:left; */ }
+
+.timestamp {
+  font-size: 13px; }
+
+.row-part {
+  margin-top: 5px; }
+
+.koolio-card {
+  box-shadow: 0px 0px 10px grey;
+  margin-right: 8px; }
+
+.koolio-cards-row {
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+#profile-card {
+  margin-top: 10px;
+  position: relative;
+  right: 0px;
+  border-radius: 100px; }
+
+#profile-card iframe {
+  right: 0px;
+  margin-left: 10px; }
+
+.indented-list.compact li {
+  display: inline;
+  padding-right: 5px; }
+
+.indented-list.compact li:not(:last-child) {
+  border-right: 1px solid black; }
+
+/* hide the vist count tracker */
+a#clustrmaps-widget-v2.clustrmaps-map-control {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--
+     Copyright (c) 2016-present Kaiyu Zheng
+     Author: Kaiyu Zheng <kaiyutony@gmail.com>
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Your Description">
+        <title>Your Name</title>
+
+        <!-- Custom Style -->
+        <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+
+        <!-- Icon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+        <!-- Github button -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+        <!-- ====== Website designed by Kaiyu Zheng. Copyright 2016-present ====== -->
+    </head>
+
+    <body>
+        <div class="main-wrapper" id="top">
+
+            <div class="centered-text">
+
+                <!-- ||||||||||||| Menu ||||||||||||| -->
+                <!-- Note that the positioning of the menu is relative to the centered text. -->
+                <div class="menu" id="menu"></div>
+
+                <!-- ||||||||||||| Name and Profile ||||||||||||| -->
+
+	        <div class="header">
+	            <div class="big-name big-title">
+	                <h1 id="about">Your Name</h1>
+	                <div class="profile">
+                            <a href="https://github.com/zkytony">
+	                        <img src="img/headonly.jpeg" alt="Profile">
+                            </a>
+	                </div>
+	            </div>
+	        </div>
+
+                <!-- ||||||||||||| Introduction ||||||||||||| -->
+
+                <div class="main-section" id="intro">
+                    <p>This is a template of your research / personal profile page. Introduce yourself here.</p>
+                </div>
+
+                <!-- ||||||||||||| News ||||||||||||| -->
+	        <div class="main-section" id="news">
+                    <h4>Recent News</h4>
+                    <ul></ul>
+                    <a href="#" onclick="toggleAllNews('#news')" class="link-in hidden" id="news-toggle"></a>
+                </div>
+
+                <!-- ||||||||||||| Preprints ||||||||||||| -->
+	        <div class="main-section" id="preprints">
+                    <!-- <h2 id="publications">Preprints</h2> -->
+                </div>
+
+                <!-- ||||||||||||| Publications ||||||||||||| -->
+                <!-- PEER_REVIRED_PUBLICATIONS -->
+	        <div class="main-section" id="conf">
+	            <h2 id="publications" class="navigable" data-header="Publications">Publications</h2>
+
+                    <h3 id="year-2023" class="pub-year">2023</h3>
+
+                    <div id="paper-AbC" class="sub-section">
+                        <b>Paper Title</b>
+                        <br><u>Author 1</u>, Author 2, Author 3
+                        <br>Publication Venue.
+                        <br>
+                        [<a href="documents/papers/paper.pdf">pdf</a>]
+                        [<a href="documents/papers/bibtex/paper.bib">bibtex</a>]
+                        [<a class="show-content-btn" data-target="paper1-abstract">show abstract</a>]
+                        [<a class="show-content-btn" data-group="paper1" data-target="paper1-talk">show talk</a>]
+	                <div class="embed-video hidden" id="paper1-talk" style="width:90%">
+	                    <div class="videowrapper">
+		                <iframe width="466" height="263" src="https://www.youtube.com/embed/elYaL6z89XU?rel=0" frameborder="0" allowfullscreen></iframe>
+	                    </div>
+	                </div>
+                        <div class="further-info hidden abstract" id="paper1-abstract">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages,
+                                and more recently with desktop publishing
+                                software like Aldus PageMaker including versions
+                                of Lorem Ipsum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 id="year-2022" class="pub-year">2022</h3>
+
+                    <div id="paper-DEf" class="sub-section">
+                        <b>Paper Title</b>
+                        <br><u>Author 1</u>, Author 2, Author 3
+                        <br>Publication Venue.
+                        <br>
+                        [pdf forthcoming]
+                        [<a class="show-content-btn" data-group="genmos" data-target="genmos-talk">hide video</a>]
+	                <div class="embed-video" id="genmos-talk" style="width:90%">
+	                    <div class="videowrapper">
+		                <iframe width="466" height="263" src="https://www.youtube.com/embed/7WHTeWi2ZT8?rel=0" frameborder="0" allowfullscreen></iframe>
+	                    </div>
+	                </div>
+                    </div>
+                </div>
+
+                <!-- ||||||||||||||||| Teaching |||||||||||||||| -->
+                <div class="main-section" id="teaching">
+                    <h2 id="teaching" class="navigable" data-header="Teaching">Teaching</h2>
+
+                    <div id="course-1" class="sub-section">
+                        <b>Course Title</b>
+                        <br>School Name
+                        <br>Your Role</small>
+                        <br>
+                        [<a href="http://cs.brown.edu/">course website</a>]
+                        [<a class="show-content-btn" data-target="course1-description">show description</a>]
+
+                        <div class="further-info hidden description" id="course1-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ||||||||||||||||| Contact |||||||||||||||| -->
+	        <div class="main-section" id="contact-me">
+                    <h2 id="contact" class="navigable" data-header="Contact">Contact</h2>
+	            <p>
+                        Feel free to reach me through email: <br>
+                        <code><small><b>Your Email</b></small></code>
+	            </p>
+	        </div>
+                <!-- ||||||||||||||||| Misc |||||||||||||||| -->
+                <!-- <div class="main-section" id="misc-sec">
+                     <h2 class="navigable nopadding" id="misc" data-header="Misc">Misc</h2>
+                     <p>
+                     Here are some of my <a href="projects/">other projects and interests</a>.
+                     </p>
+                     </div>
+                -->
+	        <div class="footnote" id="copyright" >
+	            <p></p>
+	        </div>
+            </div> <!-- End of Centered text -->
+
+            <!-- Visit count -->
+            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=6pzFnubPZC71fcWkBi_4EluIekY20OFq4XXezULvhKs"></script>
+        </div>  <!-- End of main wrapper -->
+    </body>
+    <!-- Custom Script -->
+    <script src="main.js"></script>
+    <script>
+     makeMenu("", "#menu");
+     makeNews("#news");
+
+     // insert more items into the menu
+     var navitems = [];
+     $(".navigable").each(function() {
+         navitems.push(`<li><a href='#${$(this).attr('id')}'>${$(this).attr('data-header')}</a></li>`)
+     });
+     $(".navigable-sub").each(function() {
+         navitems.push(`<li class='sub-menu-item'><a href='#${$(this).attr('id')}'>${$(this).attr('data-header')}</a></li>`)
+     })
+     navitems.forEach(function(elm) {
+         $("#menu ul").append(elm);
+     });
+    </script>
+</html>

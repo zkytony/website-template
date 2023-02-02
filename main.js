@@ -18,15 +18,15 @@
 
 // author: Kaiyu Zheng
 
-function copyright(startyr, elm, useDesign=true) {
+function copyright(elm, useDesign=true) {
     design = "";
     if (useDesign) {
-	design = "Designed by <a href='https://github.com/zkytony' class='link-no'>Kaiyu Zheng</a>&nbsp"
+	design = "<a href='https://github.com/zkytony/website-template' class='link-no'>template</a> (designed by <a href='https://github.com/zkytony' class='link-no'>zkytony</a>)"
     }
     elm.html("<small> "
+           + "Your Name &copy " + (new Date()).getFullYear() + ";&nbsp&nbsp"
            + "Last Updated: " + (new Date()).toDateString() + ";&nbsp&nbsp"
            + design
-      	   + "&copy " + startyr + "-" + (new Date()).getFullYear()
       	   + " </small>");
 }
 
@@ -152,5 +152,5 @@ $(document).ready(function(){
     // If clicked on an in-link, highlight the part that is linked.
     // Also, scropp up slightly fore better viewing experience.
 
-    copyright(2016, $("#copyright"));
+    copyright($("#copyright"));
 })
